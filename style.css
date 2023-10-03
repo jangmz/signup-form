@@ -3,6 +3,7 @@ body {
     font-family: "Lato", "Helvetica", "Arial", sans-serif;
     line-height: 1.3;
 }
+
 img.bg {
     /* fill background */
     min-height: 100%;
@@ -18,21 +19,26 @@ img.bg {
     left: 0;
 }
 
+
 .container {
+    width: 100vw;
+    height: 100vh;
+
     display: flex;
-    /* height: 1000px; */
 }
 
 /* left part - image */
 .left-part {
-    width: 33%;
-    height: auto;
-    background-color: brown;
+    width: 33vw;
+    background-image: url(images/wood_background.jpg);
+    background-size: auto 100%; /* image resizes */
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 /* right part - form */
 .right-part {
-    width: 67%;
+    width: 67vw;
     height: auto;
     background-color: white;
 
@@ -90,7 +96,7 @@ img.bg {
     padding: 15px 35px;
     border: 0px;
     border-radius: 7px;
-    background-color: #644e34;
+    background-color: #413527;
     color: white;
     outline: none;
 
@@ -99,7 +105,7 @@ img.bg {
 
 .form-row button:hover {
     cursor: pointer;
-    background-color: #756550;
+    background-color: #614f3b;
 }
 
 .footer-text {
