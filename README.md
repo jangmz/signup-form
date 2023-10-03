@@ -1,7 +1,7 @@
 <h1>Sign-Up Form</h1>
 
 ## Preview
-Check the website Sign-Up form [HERE](jangmz.github.io/signup-form/)
+Check the website Sign-Up form [HERE](https://jangmz.github.io/signup-form/)
 
 ## Built with
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   
