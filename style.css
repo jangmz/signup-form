@@ -94,6 +94,7 @@ a {
 .form-input input[type="text"],
 .form-input input[type="email"],
 .form-input input[type="password"] {
+    font-size: 14px;
     width: 20vw;
     border: 1px solid #e5e7eb;
     padding: 5px;
@@ -132,6 +133,51 @@ a {
     background-color: #614f3b;
 }
 
+.form-row button:active {
+    background-color: #31281e;
+}
+
 .footer-text {
     margin-left: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    /* previous left side */
+    .left-part {
+        width: 100vw;
+        height: auto;
+        background-size: 100% auto;
+    }
+
+    .banner {
+        margin-top: 50px;
+    }
+
+    /* previous right side */
+    .right-part {
+        width: 100vw;
+    }
+
+    .heading-text {
+        padding: 20px 40px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .form-input input[type="text"],
+    .form-input input[type="email"],
+    .form-input input[type="password"] {
+        width: 70vw;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
 }
