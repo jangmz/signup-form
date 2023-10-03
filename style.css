@@ -1,12 +1,21 @@
-body { 
-    background-image: url("images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; 
+img.bg {
+    /* fill background */
+    min-height: 100%;
+    min-width: 700px;
 
-    height: 100%;
+    /* proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-.container {
-    width:600px;
-    height: 300px;
-    background-color: brown;
+
+@media screen and (max-width: 700px) {
+    img.bg {
+        left: 50%;
+        margin-left: -350px; 
+    }
 }
